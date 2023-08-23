@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #f0f4f8;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.header {
+  background-color: rgb(110, 110, 200);
+  max-width: 600px;
+  margin: auto;
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.top{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input{
+  border: none;
+  outline: none;
+  width: 500px;
+  height: 35px;
+  padding: 0 0.5rem;
+  border: 1px solid #565454;
+  border-radius: 5px;
+}
+
+.add{
+  background-color: rgb(110, 110, 200);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todos{
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.singleTodo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: #f0f4f8;
+  color: black;
+  padding: 1.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.icons{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-1{
+  cursor: pointer;
+  color: rgb(113, 113, 236);
+  font-size: 20px;
+}
+
+.icon-2{
+  cursor: pointer;
+  color: rgb(238, 91, 91);
+  font-size: 20px;
+}
